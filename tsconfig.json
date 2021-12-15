@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": ["es2017"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "outDir": "build",
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "resolveJsonModule": true,
+        "importHelpers": true
+    },
+    "include": ["src", "prismewinter.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

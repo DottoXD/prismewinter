@@ -1,0 +1,34 @@
+{
+    "name": "prismewinter",
+    "description": "Prisme Winter Discord bot",
+    "version": "0.0.1",
+    "main": "prismewinter.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "start": "ts-node prismewinter.ts",
+        "start:dev": "ts-node-dev prismewinter.ts",
+        "start:build": "node build/prismewinter.js",
+        "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    },
+    "author": "DottoXD",
+    "license": "MIT",
+    "dependencies": {
+        "@discordjs/rest": "^0.1.0-canary.0",
+        "chalk": "^4.1.2",
+        "discord-api-types": "^0.25.2",
+        "discord.js": "^13.3.1",
+        "glob": "^7.2.0",
+        "moment": "^2.29.1",
+        "mongoose": "^6.1.1",
+        "node-fetch": "^2.6.6"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/node": "^16.11.12",
+        "prettier": "^2.5.1",
+        "ts-node": "^10.4.0",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.5.2"
+    }
+}
