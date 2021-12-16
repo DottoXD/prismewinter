@@ -2,6 +2,7 @@ import fs from 'fs';
 import Discord from 'discord.js';
 import mongoose from 'mongoose';
 import chalk from 'chalk';
+import { Manager } from 'lavacord';
 
 let { config } = require(global.path + '/src/configuration/config');
 
@@ -48,6 +49,23 @@ export class PrismeWinter {
         chalk.bold.white(loadedContextMenus.length) +
         chalk.bold.cyan(' context menus!')
     );
+  }
+
+  static loadErelaJS(client) {
+    const nodes = [
+      {
+        id: '1',
+        host: config.lavalinkHost,
+        port: config.lavalinkPort,
+        password: config.lavalinkPassword
+      }
+    ];
+    const manager = new Manager(nodes, {
+      user: config.clientId,
+      shards: 1,
+      send: (packet) => {}
+    });
+    manager.connect();
   }
 
   static loadButtons(client) {
