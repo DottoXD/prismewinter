@@ -18,8 +18,8 @@
         "chalk": "^4.1.2",
         "discord-api-types": "^0.25.2",
         "discord.js": "^13.3.1",
-        "erela.js": "^2.3.3",
         "glob": "^7.2.0",
+        "lavacord": "^1.1.9",
         "moment": "^2.29.1",
         "mongoose": "^6.1.1",
         "node-fetch": "^2.6.6"
