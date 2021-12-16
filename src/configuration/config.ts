@@ -12,7 +12,7 @@ export type Configuration = {
   apiUrl: string;
   apiKey: string;
   erelaHost: string;
-  erelaPort: string;
+  erelaPort: number;
   erelaPassword: string;
 };
 
@@ -30,6 +30,6 @@ export const config: Configuration = {
   apiUrl: '',
   apiKey: '',
   erelaHost: "",
-  erelaPort: "",
+  erelaPort: 3000,
   erelaPassword: ""
 };
