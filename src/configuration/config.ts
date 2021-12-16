@@ -11,6 +11,9 @@ export type Configuration = {
   botName: string;
   apiUrl: string;
   apiKey: string;
+  erelaHost: string;
+  erelaPort: string;
+  erelaPassword: string;
 };
 
 export const config: Configuration = {
@@ -25,5 +28,8 @@ export const config: Configuration = {
   mainChillColorCode: '#F5EDD5',
   botName: '☃️ Prisme Winter',
   apiUrl: '',
-  apiKey: ''
+  apiKey: '',
+  erelaHost: "",
+  erelaPort: "",
+  erelaPassword: ""
 };
