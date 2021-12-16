@@ -11,9 +11,9 @@ export type Configuration = {
   botName: string;
   apiUrl: string;
   apiKey: string;
-  erelaHost: string;
-  erelaPort: number;
-  erelaPassword: string;
+  lavalinkHost: string;
+  lavalinkPort: number;
+  lavalinkPassword: string;
 };
 
 export const config: Configuration = {
@@ -29,7 +29,7 @@ export const config: Configuration = {
   botName: '☃️ Prisme Winter',
   apiUrl: '',
   apiKey: '',
-  erelaHost: "",
-  erelaPort: 3000,
-  erelaPassword: ""
+  lavalinkHost: "",
+  lavalinkPort: 3000,
+  lavalinkPassword: ""
 };
