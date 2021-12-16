@@ -88,7 +88,9 @@ module.exports = {
           this.data.name.slice(1).toLowerCase()
       )
       //.setDescription('Now playing: ' + choice)
-      .setDescription("I am sorry, but this command is not ready yet! Stay tuned for more info soon!")
+      .setDescription(
+        'I am sorry, but this command is not ready yet! Stay tuned for more info soon!'
+      )
       .setColor(config.mainColorCode);
 
     getSongs(choice).then((songs) => {
