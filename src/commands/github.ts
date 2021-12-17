@@ -5,7 +5,7 @@ import moment from 'moment';
 
 module.exports = {
   data: {
-    name: 'gihub',
+    name: 'github',
     description: 'Searches a user or an organization on GitHub!',
     options: [
       {
