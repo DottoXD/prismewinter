@@ -3,7 +3,7 @@ import Discord, { GuildMember } from 'discord.js';
 
 module.exports = {
   data: {
-    name: 'kcik',
+    name: 'kick',
     description: 'Kicks someone...bonk!',
     options: [
       {
